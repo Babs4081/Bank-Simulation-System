@@ -1,0 +1,81 @@
+{
+    "admin": [
+        {
+            "admin": "Babs",
+            "pin": 3016
+        },
+        {
+            "admin": "Cynthia",
+            "pin": 3509
+        },
+        {
+            "admin": "Rabio",
+            "pin": 3490
+        }
+    ],
+    "user": [
+        {
+            "account_no": 794527252,
+            "name": "Baddie",
+            "bal": 48000,
+            "pin": 3034,
+            "status": "Active",
+            "trans": [
+                {
+                    "type": "Received",
+                    "sender": [
+                        "Barry",
+                        759744563
+                    ],
+                    "amount": 10000,
+                    "bal_after": 52000,
+                    "date": "2025-10-17 10:02:07"
+                },
+                {
+                    "type": "Admin deduct",
+                    "adminName": "Rabio",
+                    "amount": 4000,
+                    "bal_after": 48000,
+                    "date": "2025-10-17 11:19:01"
+                }
+            ]
+        },
+        {
+            "account_no": 759744563,
+            "name": "Barry",
+            "bal": 40000,
+            "pin": 5050,
+            "status": "Active",
+            "trans": [
+                {
+                    "type": "deposit",
+                    "amount": 50000,
+                    "bal_after": 50000,
+                    "date": "2025-10-17 10:00:57"
+                },
+                {
+                    "type": "deposit",
+                    "amount": 4000,
+                    "bal_after": 54000,
+                    "date": "2025-10-17 10:00:59"
+                },
+                {
+                    "type": "Withdrawal",
+                    "amount": 4000,
+                    "bal_after": 50000,
+                    "date": "2025-10-17 10:01:52"
+                },
+                {
+                    "type": "Transfer",
+                    "receiver": [
+                        "Baddie",
+                        794527252
+                    ],
+                    "amount": 10000,
+                    "bal_after": 40000,
+                    "date": "2025-10-17 10:02:07"
+                }
+            ]
+        }
+    ]
+}
